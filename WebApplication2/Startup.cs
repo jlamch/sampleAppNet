@@ -21,7 +21,6 @@ namespace WebApplication2
     {
 
       services.AddControllers();
-      services.AddApplicationInsightsTelemetry(Configuration);
       services.AddSwaggerGen(c =>
       {
         c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApplication2", Version = "v1" });
